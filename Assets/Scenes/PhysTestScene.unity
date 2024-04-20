@@ -175,6 +175,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: car-2-frontbumper
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 880a11843bffbc84fa7971d4776e3c4b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 880a11843bffbc84fa7971d4776e3c4b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -345,6 +353,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: car-0-grill
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a7386aab55d393346a4f514c2e977444, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a7386aab55d393346a4f514c2e977444, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -358,6 +374,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a7386aab55d393346a4f514c2e977444, type: 3}
       insertIndex: -1
       addedObject: {fileID: 780683396}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a7386aab55d393346a4f514c2e977444, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 780683397}
   m_SourcePrefab: {fileID: 100100000, guid: a7386aab55d393346a4f514c2e977444, type: 3}
 --- !u!4 &780683393 stripped
 Transform:
@@ -381,7 +400,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -428,6 +447,27 @@ MonoBehaviour:
   BreakingCollider: {fileID: 844792503}
   SelfRigid: {fileID: 780683395}
   TempCollider: {fileID: 2087363945}
+--- !u!65 &780683397
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738043320}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Size: {x: 1.0329514, y: 2.2064133, z: 4.6}
+  m_Center: {x: 2.5842628, y: -4.643486, z: 0}
 --- !u!1 &844792502 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2967607310887363467, guid: ba71fc62ffa13e042a49312717d5e69e, type: 3}
@@ -603,6 +643,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: car-1-hood
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 79c70261be86bb34c99ee3d0819dd0f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 79c70261be86bb34c99ee3d0819dd0f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -616,6 +664,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 79c70261be86bb34c99ee3d0819dd0f3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1355677239}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 79c70261be86bb34c99ee3d0819dd0f3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1355677240}
   m_SourcePrefab: {fileID: 100100000, guid: 79c70261be86bb34c99ee3d0819dd0f3, type: 3}
 --- !u!4 &1032400523 stripped
 Transform:
@@ -795,7 +846,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -842,6 +893,27 @@ MonoBehaviour:
   BreakingCollider: {fileID: 844792503}
   SelfRigid: {fileID: 1355677238}
   TempCollider: {fileID: 2087363945}
+--- !u!65 &1355677240
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355677236}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.4000001, z: 6.34}
+  m_Center: {x: 0.038341522, y: -3.2, z: -0.03}
 --- !u!1 &1605274286
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,7 +1104,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2087363943
 Transform:
